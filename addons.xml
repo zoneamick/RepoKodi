@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.telemag"
+version="1.0.0"
+name="Tele-Mag.tv"
+provider-name="zoneamick">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.requests" version="2.9.1"/>
+  <import addon="script.module.beautifulsoup4" version="4.5.3"/> 
+  <import addon="plugin.video.youtube"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary>Tele-Mag.tv</summary>
+  <description>Permet d'écouter les épisodes en rédiffusion ainsi qu'en direct.</description>
+  <disclaimer></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news></news>
+</extension>
+</addon>
+</addons>
